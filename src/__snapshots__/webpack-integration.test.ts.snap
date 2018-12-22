@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Webpack Integration Tests add 1`] = `
+"(module
+ (type $0 (func (param i32 i32) (result i32)))
+ (type $1 (func))
+ (export \\"a\\" (func $0))
+ (export \\"b\\" (func $1))
+ (func $0 (; 0 ;) (type $0) (param $0 i32) (param $1 i32) (result i32)
+  (i32.add
+   (get_local $0)
+   (get_local $1)
+  )
+ )
+ (func $1 (; 1 ;) (type $1)
+  (nop)
+ )
+)
+"
+`;
+
+exports[`Webpack Integration Tests add 2`] = `""`;
+
+exports[`Webpack Integration Tests no-wasm 1`] = `""`;
+
+exports[`Webpack Integration Tests unreachable-pops 1`] = `
+"(module
+ (type $0 (func))
+ (export \\"__webpack_init__\\" (func $0))
+ (func $0 (; 0 ;) (type $0)
+  (nop)
+ )
+)
+"
+`;
+
+exports[`Webpack Integration Tests unreachable-pops 2`] = `""`;

@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6"],
+    "outDir": "./lib",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "module": "CommonJS"
+  },
+  "files": [
+    "src/plugin.ts"
+  ]
+}
