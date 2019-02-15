@@ -10,7 +10,8 @@
     "test": "jest",
     "build": "rm -rf ./lib && tsc",
     "serve": "yarn test && cd src/test_output/$1 && npx http-server",
-    "prepare": "yarn test --no-cache && yarn build"
+    "prepare": "yarn test --no-cache && yarn build",
+    "release": "node ./hack/release"
   },
   "author": "Jacob LeGrone <npm@jacob.work> (https://jacoblegrone.com)",
   "keywords": [
@@ -38,6 +39,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.1.0",
     "rimraf": "^2.6.2",
+    "semantic-release": "^15.13.3",
     "ts-jest": "^23.10.5",
     "typescript": "^3.2.2",
     "webpack": "^4.28.1",
