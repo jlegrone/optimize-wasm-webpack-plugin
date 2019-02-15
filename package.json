@@ -1,6 +1,6 @@
 {
   "name": "optimize-wasm-webpack-plugin",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Webpack plugin for optimizing the size of wasm files",
   "main": "lib/plugin.js",
   "files": [
@@ -25,8 +25,8 @@
     "type": "git",
     "url": "https://github.com/jlegrone/optimize-wasm-webpack-plugin.git"
   },
-  "publishConfig": {
-    "tag": "next"
+  "release": {
+    "master": "stable"
   },
   "engines": {
     "node": ">= 6.11.5"
