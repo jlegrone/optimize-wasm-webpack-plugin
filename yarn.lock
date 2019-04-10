@@ -798,10 +798,10 @@ binary-extensions@^1.0.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.12.0.tgz#c2d780f53d45bba8317a8902d4ceeaf3a6385b14"
 
-binaryen@^77.0.0:
-  version "77.0.0"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-77.0.0.tgz#7f814895009bd12b3bb814a0ca56026f0ad3a758"
-  integrity sha512-9vIBFzc/AuM+j5+hUfogJTvgZTiUJ9WVHTrFZPLYO91vQlNkS/FVw1wTWo0zc7z6J3C7i/kAISOyQW2g4oez8Q==
+binaryen@^78.0.0:
+  version "78.0.0"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-78.0.0.tgz#eb38e7fb2924ade6bd86f804c254dc0dad8b6ed9"
+  integrity sha512-xLYIsk3Qar8H+LBFHCsFuE4QVhbxLAStBiDlIsjFh3FJ9IViYHYcS+4pOzz0RkUtCde2AhuBFJnf+HOZpxj0nw==
 
 block-stream@*:
   version "0.0.9"
