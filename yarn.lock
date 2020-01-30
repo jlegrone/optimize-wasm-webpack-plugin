@@ -798,10 +798,10 @@ binary-extensions@^1.0.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.12.0.tgz#c2d780f53d45bba8317a8902d4ceeaf3a6385b14"
 
-binaryen@^84.0.0:
-  version "84.0.0"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-84.0.0.tgz#a94e546bd89f33cbf85bacc6901f164c9746c6e3"
-  integrity sha512-qgMxUbFS13BcuR2xq2+myTsqrO2giGFZNVLW49nO6Og2N6/fdDw987Sk8gX07IQk1uN6Iy2Po0T7IT/nXUQZ4A==
+binaryen@^85.0.0:
+  version "85.0.0"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-85.0.0.tgz#72c385d558862e52b75918bbce748d4627a98499"
+  integrity sha512-01z4ZvA1O1hhNH+R4QQHuqzslecdHyzHYeuPMm4rB3hEiCP6BQlXZhHs68FgKfKT199YOt1uy5bmAIsilaOQ9g==
 
 block-stream@*:
   version "0.0.9"
@@ -3825,6 +3825,11 @@ lodash.isstring@^4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
+lodash.memoize@4.x:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
 lodash.set@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
@@ -6374,15 +6379,16 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-ts-jest@^24.0.0:
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-24.0.0.tgz#3f26bf2ec1fa584863a5a9c29bd8717d549efbf6"
-  integrity sha512-o8BO3TkMREpAATaFTrXkovMsCpBl2z4NDBoLJuWZcJJj1ijI49UnvDMfVpj+iogn/Jl8Pbhuei5nc/Ti+frEHw==
+ts-jest@^25.1.0:
+  version "25.1.0"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-25.1.0.tgz#06e776c4cce8a4da8eec4945f36a5823d0c0f9ba"
+  integrity sha512-1Lf576ulKhbxX5og+tG8udVg/5cgcMLPBxp1iCqbbf6VvUK4gEsgAtzMjl8u98izhLrzKMPB0LxCBKEZ5l19Hw==
   dependencies:
     bs-logger "0.x"
     buffer-from "1.x"
     fast-json-stable-stringify "2.x"
     json5 "2.x"
+    lodash.memoize "4.x"
     make-error "1.x"
     mkdirp "0.x"
     resolve "1.x"
